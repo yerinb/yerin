@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+        }
+        body{
+            padding-top:80px;
+            width: 100%;
+            margin-left: 0px;
+            background-color: white;
+            overflow-y:scroll;
+          }
+          p{
+            margin-top: 25px;
+          }
+          .container{
+              width: 100%;
+              border: 2px solid black;
+            }
+            header{
+                font-size: 3.5rem;
+                position: absolute;
+                left: 0; top:0;
+                width: 100%;
+                height: 90px;
+                border-bottom: 2px solid black;
+                text-align: center;
+                font-family: 'Satisfy', cursive;
+                font-weight: bold;
+                background-image:linear-gradient(to left,#00ced1,#d5d5d5)
+              }
+              .insta{
+                font-size: 1.7rem;
+                position: absolute;
+                left: 90%; top:10px;
+              }
+            header>a:link{color:white;text-decoration:none;}
+            header>a:visited{color:white;text-decoration:none;}
+            header>a:hover{color:black;text-decoration:none;}
+            header>a:active{color:black;text-decoration:none;}
+  
+            nav{
+                float:left;
+                font-size: 1.3rem;
+                border-right: 2px solid black;
+                width: 20%;
+                text-align: center;
+                font-family: 'Satisfy', cursive;
+                font-weight: bold;
+                }
+                a.ryu:link{color:black;text-decoration:none;}
+                a.ryu:visited{color:black;text-decoration:none;}
+                a.ryu:active{color:white;text-decoration:none;}
+                a.ryu:hover{color:#00ced1;text-decoration:none;}  
+                a#Discography:link{color:black;text-decoration:none;}
+                a#Discography:visited{color:black;text-decoration:none;}
+                a#Discography:active{color:#00ced1;text-decoration:none;}
+                a#Discography:hover{color:#00ced1;text-decoration:none;}
+                a.sc:link{color:black;text-decoration:none;}
+                a.sc:visited{color:black;text-decoration:none;}
+                a.sc:active{color:white;text-decoration:none;}
+                a.sc:hover{color:#ff9531;text-decoration:none;} 
+    
+            article{
+                float: left;
+                width: 60%;
+                text-align: center;
+                border-left: 2px solid black;
+                border-right: 2px solid black;
+                margin-left: -2px;
+                font-size: 1.2rem;
+                font-family: 'Open Sans Condensed', cursive;
+                font-weight: bold;
+                color:black;
+            }
+            article>a#Discography{
+              font-size: 35px;
+            }
+            .album{
+                column-width:150px;
+                border-top: 2px solid black;
+            }
+            .album>figure{
+                display: inline-block;
+                margin: 10px;
+            }
+            .album>figure>a>img{
+                width: 100px; height: 100px;
+                border: 2px solid black;
+              }
+              .album>figure>figcaption{
+                border: 2px solid black;
+                text-align: center;
+                font-family: 'Open Sans Condensed', cursive;
+                font-weight: bold;
+                padding-left: 2.5px;
+                padding-right: 2.5px;
+                font-size:13;
+              }
+              .album>figure>figcaption#fr{
+                color:#918264;
+              }
+              .album>figure>figcaption#bb{
+                color:#cfe6ee;
+              }
+              .album>figure>figcaption#ly{
+                color:#c3838d;
+              }
+              .album>figure>figcaption#lg{
+                color:#dbd7e8;
+              }
+              .album>figure>figcaption#el{
+                color:#eee7dd;
+              }
+            aside{
+                float: left;
+                width: 20%;
+                border-left: 2px solid black;
+                margin-left: -2px;
+                text-align: center;
+                font-family: 'Satisfy', cursive;
+                font-weight: bold;
+              }
+          footer{
+            clear: both;
+            border-top: 2px solid black;
+            text-align: center;
+            padding: 15px;
+            font-size: 1.2rem;
+            font-family: 'Satisfy', cursive;
+            font-weight: bold;
+            color:#673ab73b;
+          }
